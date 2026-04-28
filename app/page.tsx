@@ -24,13 +24,13 @@ export default function JoyPortfolio() {
   const projects = [
     {
       title: "AI Decision Engine",
-      desc: "Multi-source AI routing across RAG, SQL, NoSQL, and LLM fallback.",
+      desc: "Architected multi-source AI system across RAG, SQL, NoSQL, and LLM fallback.",
       github: "#",
       live: "#",
     },
     {
       title: "Enterprise AI Chatbot",
-      desc: "RAG chatbot using Azure OpenAI and FastAPI.",
+      desc: "Designed RAG-based enterprise chatbot using Azure OpenAI and FastAPI.",
       github: "#",
       live: "#",
     },
@@ -69,7 +69,7 @@ export default function JoyPortfolio() {
             <div>
               <div className="text-cyan-400 font-semibold">Joy Mowar</div>
               <div className="text-sm text-gray-300">
-                Generative AI Engineer | RAG | Azure | Backend Systems
+                Generative AI Engineer | AI Systems Architect | RAG, Agentic AI | Enterprise Modernization
               </div>
             </div>
           </div>
@@ -101,7 +101,7 @@ export default function JoyPortfolio() {
 
               {/* LEFT */}
               <div>
-                <p className="text-cyan-400 mb-4">GENERATIVE AI ENGINEER</p>
+                <p className="text-cyan-400 mb-4">GENERATIVE AI ARCHITECT & ENGINEER</p>
 
                 <h1 className="text-5xl font-bold">
                   Building scalable,
@@ -110,13 +110,11 @@ export default function JoyPortfolio() {
                 </h1>
 
                 <p className="mt-6 text-gray-300 leading-7">
-                  I build AI systems using RAG, Azure OpenAI, FastAPI, SQL, and NoSQL
-                  to connect large language models with real enterprise data.
+                  I design and build AI systems using RAG, Azure OpenAI, FastAPI, SQL, and NoSQL to connect large language models with real enterprise data.
                 </p>
 
                 <p className="mt-3 text-gray-300 leading-7">
-                  My work focuses on intelligent routing, grounded responses, and building
-                  backend systems that are reliable, scalable, and production-ready—not just demos.
+                  My work focuses on intelligent routing, grounded responses, and designing scalable AI architectures that are reliable, enterprise-ready, and production-grade.
                 </p>
 
                 <div className="mt-8 flex gap-4">
@@ -145,9 +143,9 @@ export default function JoyPortfolio() {
                   <div className="text-gray-400 mb-3">Core Expertise</div>
 
                   <div className="text-sm text-gray-300 space-y-2 mb-4">
-                    <div><span className="text-cyan-400">Role:</span> Generative AI Engineer</div>
+                    <div><span className="text-cyan-400">Role:</span> Generative AI Architect & Engineer</div>
                     <div><span className="text-cyan-400">Focus:</span> RAG + Enterprise AI</div>
-                    <div><span className="text-cyan-400">Strength:</span> Multi-source routing</div>
+                    <div><span className="text-cyan-400">Strength:</span> End-to-end AI system design</div>
                   </div>
 
                   {/* 🔥 PREMIUM CERTIFICATION */}
@@ -239,18 +237,37 @@ export default function JoyPortfolio() {
             <section className="max-w-6xl mx-auto px-6 py-20">
               <h2 className="text-3xl mb-10">Achievements</h2>
 
-              <div className="grid md:grid-cols-2 gap-6">
-                <div className="bg-[#0f172a] p-5 rounded-xl">
-                  Microsoft Certified: Azure AI Fundamentals (AI-900)
+              {/* CERTIFICATIONS */}
+              <div className="mb-10">
+                <div className="text-sm text-gray-400 mb-3">Certifications</div>
+
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="bg-[#0f172a] p-5 rounded-xl">
+                    Microsoft Certified: Azure AI Fundamentals (AI-900)
+                  </div>
+
+                  <div className="bg-[#0f172a] p-5 rounded-xl">
+                    Microsoft Certified: Azure Fundamentals (AZ-900)
+                  </div>
                 </div>
-                <div className="bg-[#0f172a] p-5 rounded-xl">
-                  Built multi-source AI system
-                </div>
-                <div className="bg-[#0f172a] p-5 rounded-xl">
-                  Enterprise AI chatbot delivered
-                </div>
-                <div className="bg-[#0f172a] p-5 rounded-xl">
-                  District Gold Medal - 8K Run
+              </div>
+
+              {/* AI ACHIEVEMENTS */}
+              <div>
+                <div className="text-sm text-gray-400 mb-3">AI & Engineering Highlights</div>
+
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div className="bg-[#0f172a] p-5 rounded-xl">
+                    Architected multi-source AI decision engine (RAG + SQL + LLM)
+                  </div>
+
+                  <div className="bg-[#0f172a] p-5 rounded-xl">
+                    Designed enterprise-grade RAG chatbot system
+                  </div>
+
+                  <div className="bg-[#0f172a] p-5 rounded-xl">
+                    Built end-to-end AI architecture integrating structured & unstructured data
+                  </div>
                 </div>
               </div>
             </section>
